@@ -31,7 +31,7 @@ def turno_jugador():
                 accion_valida = True
         elif accion == "2":
                 if heroe_pociones <= 0:
-                    print("⚠️ No tienes pociones. Elige otra acción.")
+                    print("No tienes pociones. Elige otra acción.")
     
                 heroe_hp = min(heroe_hp + 20, 100)
                 heroe_pociones -= 1
